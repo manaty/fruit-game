@@ -1,0 +1,1 @@
+I would like people to learn about many more fruit while keeping the number of cards 42. May be on the front side of each card there could be also in the lower part there could be pictures and name of 3 other fruits : the friends of the fruit on the card. Could you list another 126 fruits ?
