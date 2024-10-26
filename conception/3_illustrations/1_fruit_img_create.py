@@ -24,12 +24,12 @@ def generate_image(fruit_name):
     try:
         response = client.images.generate(
             model="dall-e-3",
-            prompt=f"A photorealistic image of a {fruit_name}",
+            prompt=f"A photorealistic vertical image of a mate not wrinkled {fruit_name}",
             size="1024x1792",  # Using the 1024x1792 size as requested
             quality="standard",
             n=1,
         )
-        image_url = response.data[0].url
+        image_url = response.data[0].url 
         return image_url
     except Exception as e:
         print(f"Error generating image for {fruit_name}: {e}")

@@ -491,18 +491,18 @@
 
 ---
 
-#### **Grandmother Winter Melon**
+#### **Grandmother Cucumber**
 
-- **Name:** Winter Melon
+- **Name:** Cucumber
 - **Family:** Cucurbitaceae (Gourd family)
-- **Color(s):** Green skin covered with a white, waxy coating; white flesh
-- **Place of Origin:** Southeast Asia
-- **Countries Where It Grows:** China, India, Philippines, Vietnam
-- **Importance in Industry:** Used in soups, stews, candies, and teas
-- **Historical Significance:** Important in Asian cuisines; used in traditional medicine
-- **Nutritional Benefits:** Low in calories, contains vitamin C and B vitamins
-- **Medicinal Uses:** Diuretic properties, aids in digestion
-- **Interesting Chemicals:** Contains triterpenes, flavonoids, and sterols
+- **Color(s):** Green when unripe, turning yellow as it matures
+- **Place of Origin:** South Asia (likely India)
+- **Countries Where It Grows:** China, India, United States, Turkey, Iran, Russia
+- **Importance in Industry:** Consumed fresh in salads, pickles, beverages; used in skincare products for hydration
+- **Historical Significance:** Cultivated for over 3,000 years; popular in ancient Egypt, Greece, and Rome; valued for cooling properties
+- **Nutritional Benefits:** High water content, low in calories, rich in vitamin K, fiber, and potassium
+- **Medicinal Uses:** Used traditionally to reduce body heat, treat skin irritation, and aid digestion
+- **Interesting Chemicals:** Contains cucurbitacins (anti-cancer potential), flavonoids (quercetin), and ascorbic acid (vitamin C)
 
 ---
 

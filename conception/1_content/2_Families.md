@@ -60,7 +60,7 @@
 ### **6. Melon Family**
 
 - **Grandfather Bitter Melon**
-- **Grandmother Winter Melon**
+- **Grandmother Cucumber**
 - **Father Watermelon**
 - **Mother Cantaloupe**
 - **Son Honeydew**
