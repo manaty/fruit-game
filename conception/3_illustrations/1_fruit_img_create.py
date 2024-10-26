@@ -12,7 +12,6 @@ if not api_key:
 # Initialize the OpenAI client
 client = OpenAI(api_key=api_key)
 
-
 # Directory to save images
 output_dir = './photorealistic'
 os.makedirs(output_dir, exist_ok=True)
@@ -26,7 +25,7 @@ def generate_image(fruit_name):
         response = client.images.generate(
             model="dall-e-3",
             prompt=f"A photorealistic image of a {fruit_name}",
-            size="1024x1792",
+            size="1024x1792",  # Using the 1024x1792 size as requested
             quality="standard",
             n=1,
         )
@@ -58,9 +57,11 @@ def download_image(image_url, fruit_name):
 def process_fruits_csv(csv_file):
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
+        next(reader)  # Skip the first line (header)
+
         for row in reader:
             if row:  # Ensure row is not empty
-                fruit_name = row[0].strip().lower()
+                fruit_name = row[0].strip()  # Don't convert to lowercase
                 image_path = os.path.join(output_dir, f"{fruit_name}.png")
                 
                 # Skip if the image already exists

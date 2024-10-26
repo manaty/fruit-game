@@ -11,7 +11,7 @@ csv_file = '1.2_fruit_properties.csv'
 exclude_terms = [
     'icon', 'logo', 'symbol', 'map', 'location', 'coat of arms', 'flag',
     'diagram', 'chart', 'emblem', 'heraldry', 'crest', 'insignia',
-    'anatomy', 'taxonomy'
+    'anatomy', 'taxonomy', 'flower'
 ]
 
 headers = {'User-Agent': 'fruit-image-downloader/1.0 (https://example.com)'}
