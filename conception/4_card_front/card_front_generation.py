@@ -26,7 +26,7 @@ friends = pd.read_csv(friends_csv)
 # Lists for special vertical translations
 translate_150_fruits = ['Lime', 'Gooseberry', 'Strawberry', 'Blueberry', 'Galia Melon']
 translate_300_fruits = ['Date', 'Olive', 'Peach', 'Cherry', 'Plum', 'Jackfruit', 'Pineapple', 'Quince', 'Pear', 'Bitter Melon', 'Mangosteen']
-
+translate_400_fruits = ['Pineapple']
 # Loop over fruits
 for index, row in fruit_properties.iterrows():
     fruit_name = row['Name']
@@ -86,6 +86,8 @@ for index, row in fruit_properties.iterrows():
         translate_y = -150
     elif fruit_name in translate_300_fruits:
         translate_y = -300
+    elif fruit_name in translate_400_fruits:
+        translate_y = -400
     else:
         translate_y = -200
 
